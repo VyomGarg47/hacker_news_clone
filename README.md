@@ -1,3 +1,6 @@
+Check out the project here: https://hnews-clone.netlify.app/
+API used: https://hn.algolia.com/api
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
