@@ -1,4 +1,4 @@
-Check out the project here: https://hnews-clone.netlify.app/
+Check out the project here: https://hnews-clone.netlify.app/  \
 API used: https://hn.algolia.com/api
 
 # Getting Started with Create React App
