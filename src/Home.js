@@ -52,14 +52,12 @@ class Home extends Component {
 
   getStories = async () => {
     try {
-      console.log(this.state.currentPage);
       const url =
         BASE_API_URL +
         (!this.state.searchResults
           ? `/search_by_date?tags=story`
           : this.state.search) +
         `&page=${this.state.currentPage}`;
-      console.log(url);
       const res = await fetch(url);
       if (!res.ok) {
         throw Error(res.statusText);
