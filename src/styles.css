@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  min-width: 1024px;
+  background-color: #f6f6ef;
+}
+
+.homepage .loading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
+
+.homepage .loading .text {
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+
+.homepage .pagenumbers {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 25px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+
+.searchbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background: #ff742b;
+  font-size: larger;
+  height: 64px;
+  padding: 7px;
+  justify-content: space-between;
+  border-top: 0.1rem solid slategray;
+  border-bottom: 0.1rem solid slategray;
+}
+
+.searchbar .searchTextField {
+  margin-right: 5px;
+}
+
+.searchbar .logo {
+  cursor: pointer;
+  color: black;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-right: 10px;
+  font-size: x-large;
+  font-weight: bold;
+  white-space: nowrap;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.searchbar .items {
+  display: flex;
+  flex-direction: row;
+  margin-right: 5px;
+}
+
+.searchbar .items .text {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  color: white;
+}
+
+.searchbar .items .select {
+  background: white;
+  height: 100%;
+}
+
+.newscard {
+  background-color: white;
+  border-radius: 0.2rem;
+  border: 0.1rem solid slategray;
+  margin: 2rem;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+}
+
+.newscard .toptext {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.newscard .bottomtext {
+  font-style: italic;
+}
+
+.newscard .toptext .title {
+  margin-right: 5px;
+}
+
+.newscard .index {
+  margin-right: 10px;
+}
